@@ -57,6 +57,7 @@ The aim is to uncover emerging socioeconomic patterns without using any predefin
     - Distribution and skewness checks
     - Correlation heatmaps
     - Domain-wise feature selection
+      
 2. Preprocessing & Feature Engineering
     - A full preprocessing pipeline was built including:
     - Median imputation
@@ -64,7 +65,8 @@ The aim is to uncover emerging socioeconomic patterns without using any predefin
     - Outlier clipping (1st–99th percentile)
     - Standardization (required for PCA & K-Means)
     - Final master dataset created with ~30 selected indicators
-3. Unsupervised Modelling
+      
+4. Unsupervised Modelling
     - PCA for dimensionality reduction
     - PCA explained variance analysis
     - 2D and 3D PCA projections
